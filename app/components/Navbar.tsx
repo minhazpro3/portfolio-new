@@ -19,9 +19,6 @@ const monda = Ceviche_One({
 const Navbar = () => {
     const [value, setValue] = useState<boolean>(false)
 
-    const menuToggler = () => {
-
-    }
     return (
         <header className="bg-[#100e29]   w-full">
             <div className='container mx-auto md:px-0 px-8'>
