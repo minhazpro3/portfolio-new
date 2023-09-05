@@ -12,9 +12,9 @@ const inter = Akaya_Kanadaka({
 const Banner = () => {
     const profession = "This's "
     return (
-        <div className='container mx-auto -z-20'>
-            <div className='grid grid-cols-2 items-center gap-x-4 p-6 '>
-                <div>
+        <div className='container mx-auto  '>
+            <div className='grid grid-cols-2 items-center gap-x-4 p-6  -z-20'>
+                <div className='relative '>
                     <h2 className='text-2xl text-sky-400 opacity-75 font-bold '>{profession} <span className='text-[#8ff577]'>Minhaz</span></h2>
                     <h2 className={`${inter.className} first-letter:text-7xl first-letter:float-top text-5xl font-bold text-[#8ff577]`}>Junior Web Developer</h2>
                     <div className='flex gap-x-12 items-center'>
@@ -26,14 +26,14 @@ const Banner = () => {
                         <button className='text-base px-8 py-2 rounded-full bg-[#8e8affc2]'>Download</button>
                     </div>
                 </div>
-                <div className=''>
+                {/* <div className=''>
                     <div className="relative w-full h-[450px]">
                         <Image className='rounded-lg opacity-40' src={Laptop} alt='' fill priority />
                         <div className="relative w-[27rem] h-[370px] p-4 left-1/2 transform -translate-x-1/2 top-1/2 -translate-y-1/2 right-0">
                             <Image className='rounded-lg   absolute' src={minhaz} alt='' fill priority />
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

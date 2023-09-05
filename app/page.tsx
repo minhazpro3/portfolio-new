@@ -5,9 +5,11 @@ import Banner from './components/Banner'
 export default function Home() {
   return (
     <main className="">
-  
+  <div className=''>
+
     <Navbar/>
-    <div className='bg-[#100e29]   w-full border-t-[1px] border-sky-800' >
+  </div>
+    <div className='bg-[#100e29]   w-full border-t-[1px] border-sky-800'  >
 
   <Banner/>
     </div>
