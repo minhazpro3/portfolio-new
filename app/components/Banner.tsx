@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Laptop from "../../public/images/laptop.jpg";
-import minhaz from "../../public/images/minhaz.jpg";
+import minhaz from "../../public/images/output-onlinegiftools (1).gif";
 import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 import {
   Abyssinica_SIL,
@@ -20,7 +20,7 @@ const inter = Akaya_Kanadaka({
   weight: "400",
 });
 const Banner = () => {
-  const profession = "This's ";
+  const profession = "Hi, This's ";
   return (
     <div className="container mx-auto  ">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-x-4 p-6  -z-20">
@@ -66,19 +66,19 @@ const Banner = () => {
           </div>
         </div>
         <div className=" mt-16 md:mt-0">
-          <div className="relative w-full h-[300px] sm:h-[450px] md:h-[350px] lg:h-[450px]">
+          <div className="relative w-full h-[300px] sm:h-[450px] md:h-[350px] lg:h-[480px]">
             <Image
               className="rounded-lg opacity-40"
               src={Laptop}
-              alt=""
+              alt="minhaz"
               fill
               priority
             />
 
             <Image
-              className="rounded-lg  p-10"
+              className=" md:px-7 "
               src={minhaz}
-              alt=""
+              alt="minhaz"
               fill
               priority
             />
