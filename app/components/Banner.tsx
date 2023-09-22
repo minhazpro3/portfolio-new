@@ -24,7 +24,10 @@ const Banner = () => {
   return (
     <div className="container mx-auto mb-12 ">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-x-4 p-6  -z-20">
-        <div className="relative mt-16 md:mt-0">
+        <div className="flex items-center h-full bg-gradient-to-tr from-[#100e29] via-[#152b44]  to-[#0F172A] rounded-r-full  ">
+
+      
+        <div className="relative mt-16 md:mt-0 px-12 py-8 md:py-0 ">
           <h2 className="text-3xl text-sky-400 opacity-75 font-bold ">
             {profession} <span className="text-[#8ff577] ">Minhaz</span>
           </h2>
@@ -64,6 +67,7 @@ const Banner = () => {
               Download
             </button>
           </div>
+        </div>
         </div>
         <div className=" mt-16 md:mt-0">
           <div className="relative w-full h-[300px] sm:h-[450px] md:h-[350px] lg:h-[480px]">

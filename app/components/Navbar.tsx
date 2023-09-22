@@ -20,7 +20,7 @@ const Navbar = () => {
     const [value, setValue] = useState<boolean>(true)
 
     return (
-        <header className="bg-[#100e29]  w-full border-b-[1px] border-sky-800">
+        <header className="bg-[#152b44]  w-full border-b-[1px] border-sky-800">
             <div className='container mx-auto md:px-0 px-8'>
                 <div className='flex justify-between items-center  py-4 '>
                     <h2 className={` text-[#878a8fe7]  text-2xl md:text-3xl font-bold z-20`}>CoderMinhaz</h2>
