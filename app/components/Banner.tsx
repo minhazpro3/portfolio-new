@@ -19,8 +19,22 @@ const inter = Akaya_Kanadaka({
   display: "swap",
   weight: "400",
 });
+
+
+const style = {
+ 
+  // Adding media query..
+  '@media (max-width: 500px)': {
+    font: '1rem',
+  },
+};
+
+
 const Banner = () => {
   const profession = "Hi, This's ";
+
+  
+
   return (
     <div className="container mx-auto mb-12 ">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-x-4 p-6  -z-20">
@@ -28,7 +42,7 @@ const Banner = () => {
 
       
         <div className="relative mt-16 md:mt-0 px-12 py-8 md:py-0 ">
-          <h2 className="text-3xl text-sky-400 opacity-75 font-bold ">
+          <h2 className="sm:text-3xl text-xl text-sky-400 opacity-75 font-bold ">
             {profession} <span className="text-[#8ff577] ">Minhaz</span>
           </h2>
 
@@ -42,7 +56,7 @@ const Banner = () => {
               " Web Developer",
               1500,
             ]}
-            style={{ fontSize: '2.5em',  }}
+            style={{ fontSize: '1.5em',  }}
             speed={20}
             repeat={Infinity}
              
