@@ -7,3 +7,27 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+
+
+.wrapper {
+  text-align: center;
+  background-color: beige;
+  width: 100%;
+  
+}
+
+ 
+
+.barCompleted {
+  background-color: rgb(6, 162, 61);
+  width: 80%;
+}
+ 
+
+.label {
+  font-size: 20px;
+  color: rgb(246, 246, 246);
+}
+
+ 
