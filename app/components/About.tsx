@@ -10,7 +10,7 @@ const About = () => {
           <div className="relative w-full md:w-[50%]  sm:h-[450px] h-[350px] md:h-[300px] lg:h-[500px] ">
             <Image
               className=" md:px-7 "
-              src={minhaz}
+              src="https://i.ibb.co/Q6Vy5WV/minhaz.jpg"
               alt="minhaz"
               fill
               priority

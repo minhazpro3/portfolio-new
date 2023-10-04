@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-    images: {
-      remotePatterns: [
-        {
-          hostname: 'img.freepik.com',
-        },
-      ],
-    },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'i.ibb.co',
+  
+      },
+    ],
+  },
   }
