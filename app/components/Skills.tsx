@@ -8,13 +8,13 @@ const languages = ["HTML", "CSS", "Tailwindcss", "Bootstrap", "MUI", "Scss", "Ja
 
 const Skills = () => {
   return (
-    <div>
-      <div className="container mx-auto px-8 md:px-0">
+    <div  >
+      <div className="container mx-auto px-8 md:px-0 py-8">
         <div className="grid grid-cols-2 justify-center items-center gap-x-4 w-full">
-          <div>
-            <h2>Design + Development</h2>
-            <h2>Technologies</h2>
-            <h2>Always Responsive</h2>
+          <div className="flex flex-col gap-y-3">
+            <h2 className="text-3xl text-sky-400 font-bold">Design + Development</h2>
+            <h2 className="text-3xl">Technologies</h2>
+            <h2 className="text-3xl">Always Responsive</h2>
           </div>
           <div className="flex flex-wrap gap-x-4 gap-y-2 ">
            {languages.map(language=>
