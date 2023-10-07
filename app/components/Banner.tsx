@@ -21,13 +21,7 @@ const inter = Akaya_Kanadaka({
 });
 
 
-const style = {
- 
-  // Adding media query..
-  '@media (max-width: 500px)': {
-    font: '1rem',
-  },
-};
+;
 
 
 const Banner = () => {
