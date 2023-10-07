@@ -29,8 +29,7 @@ const Skills = () => {
         <h2 className="text-3xl text-sky-400 font-bold text-center opacity-70">
           Design && Development <span className="text-[#100e29] shadow-2xl opacity-100">Skills</span>
         </h2>
-        <div className="grid grid-cols-2 justify-center items-center gap-x-4 w-full">
-          <div className="flex flex-col gap-y-3">
+        <div className="grid md:grid-cols-2 grid-cols-1  justify-center items-center gap-y-8 md:gap-x-4 w-full">
             <div className="flex justify-center items-center">
               <div className="relative w-96  h-80">
                 <Image
@@ -39,7 +38,6 @@ const Skills = () => {
                   alt="minhaz dev"
                 />
               </div>
-            </div>
           </div>
           <div className="flex flex-wrap gap-x-4 gap-y-4 ">
             {languages.map((language) => (
