@@ -7,15 +7,19 @@ const About = () => {
     <div className="container mx-auto px-8 md:px-0 mb-8">
       <div className="">
         <div className="relative">
-          <div className="relative w-full md:w-[50%]  sm:h-[450px] h-[350px] md:h-[300px] lg:h-[500px] ">
+          <div className="absolute bg-gradient-to-tr from-[#100e29] via-[#152b44] w-full md:w-[50%]  sm:h-[450px] h-[350px] md:h-[300px] rounded-[8%] lg:h-[500px]">
+
+          </div>
+          <div className="relative w-full md:w-[50%]   sm:h-[450px] h-[350px] md:h-[300px] lg:h-[500px] ">
             <Image
-              className=" md:px-7 "
+              className="  p-4   rounded-[8%] "
               src="https://i.ibb.co/Q6Vy5WV/minhaz.jpg"
               alt="minhaz"
               fill
               priority
             />
           </div>
+
           <div className="z-10  bg-gradient-to-tr from-[#100e29] via-[#152b44] to-[#0F172A] relative md:absolute lg:pl-14 md:pl-8 md:pr-16 lg:pr-20 lg:py-12 py-6 px-4 sm:px-0 sm:pl-5 sm:pr-12 my-10 md:my-0 md:top-6 lg:top-20 md:left-[40%] sm:rounded-tr-full rounded-tr-[6rem] sm:rounded-none">
             <h2 className="xl:text-3xl lg:text-2xl md:text-[16px sm:text-2xl text-2xl text-[#8ff577] font-bold">Hi! {im} Md Minhaz</h2>
             <p className="xl:text-base lg:text-base md:text-[14px] sm:text-xl text-sm mb-2 text-[#8e8affc2]">
