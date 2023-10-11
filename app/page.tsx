@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 export default function Home() {
   // bg-[#100e29]
@@ -19,6 +20,9 @@ export default function Home() {
       </div>
       <div>
         <Skills/>
+      </div>
+      <div>
+        <Projects/>
       </div>
     </main>
   );
