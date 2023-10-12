@@ -3,6 +3,17 @@ import React from "react";
 import {AiFillEye} from "react-icons/ai"
 import {BiCodeAlt} from "react-icons/bi"
 
+
+const projects = [
+  {
+    title:"Bug Tracker",
+    desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam incidunt enim rerum aspernatur? Accusamus aperiam non minima. Fugiat, dolor illum?",
+    image:"https://i.ibb.co/kJ1yGbN/LIFE-CARE.png",
+    skills:["React", "TailwindCss","React-hooks", "Node", "Mondodb", "Express", "Mongoose", "Firebase", "Github"]
+  }
+]
+
+
 const Projects = () => {
   return (
     <div>
