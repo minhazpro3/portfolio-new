@@ -29,7 +29,7 @@ const Skills = () => {
         <div className="flex justify-center">
 
         <h2 className="text-3xl text-sky-400 font-bold text-center opacity-70">
-          Design && Development <span className="text-[#100e29] shadow-2xl opacity-100">Skills</span>
+          Design && Development <span className="text-white bg-gradient-to-r from-[#4239c2] to-[#100e29] inline-block px-4 py-1 rounded-3xl shadow-2xl opacity-100">Skills</span>
         </h2>
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1  justify-center items-center gap-y-8 md:gap-x-4 w-full">
