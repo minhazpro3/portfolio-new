@@ -11,7 +11,13 @@ const projectsData = [
     desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam incidunt enim rerum aspernatur? Accusamus aperiam non minima. Fugiat, dolor illum?",
     image:"https://i.ibb.co/kJ1yGbN/LIFE-CARE.png",
     skills:["React", "TailwindCss","React-hooks", "Node", "Mondodb", "Express", "Mongoose", "Firebase", "Github"]
-  }
+  },
+  {
+    title:"Bug Trackers",
+    desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam incidunt enim rerum aspernatur? Accusamus aperiam non minima. Fugiat, dolor illum?",
+    image:"https://i.ibb.co/kJ1yGbN/LIFE-CARE.png",
+    skills:["React", "TailwindCss","React-hooks", "Node", "Mondodb", "Express", "Mongoose", "Firebase", "Github"]
+  },
 ]
 
 
@@ -23,7 +29,7 @@ const Projects = () => {
         <div>
          {
           projectsData.map(project=>(
-            <div className="grid grid-cols-2 gap-x-4 " key={project.title}>
+            <div className="grid grid-cols-1 md:grid-cols-2  gap-x-4 " key={project.title}>
             <div>
               <h2 className="text-3xl text-[#8ff577] font-medium">{project.title}</h2>
               <p className="text-base text-gray-400">
