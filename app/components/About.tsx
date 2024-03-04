@@ -10,7 +10,7 @@ const About = () => {
           <div className="absolute bg-gradient-to-tr from-[#100e29] via-[#152b44] w-full md:w-[50%]  sm:h-[450px] h-[350px] md:h-[300px] rounded-[8%] lg:h-[500px]">
 
           </div>
-          <div className="relative w-full md:w-[50%]   sm:h-[450px] h-[350px] md:h-[300px] lg:h-[500px] ">
+          <div className="relative w-full md:w-[50%] sm:h-[450px] h-[350px] md:h-[300px] lg:h-[500px] ">
             <Image
               className="  p-4   rounded-[8%] "
               src="https://i.ibb.co/Q6Vy5WV/minhaz.jpg"
