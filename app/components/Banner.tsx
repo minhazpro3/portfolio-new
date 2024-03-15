@@ -31,6 +31,7 @@ const Banner = () => {
 
   return (
     <div className="container mx-auto mb-12 ">
+    
       <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-x-4 p-6  -z-20">
         <div className="flex items-center h-full bg-gradient-to-tr from-[#100e29] via-[#152b44]  to-[#0F172A] rounded-r-full rounded-br-none  ">
 
