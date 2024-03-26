@@ -15,7 +15,7 @@ const projectsData = [
   {
     title:"Workfleek Freelance (Team Project)",
     desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam incidunt enim rerum aspernatur? Accusamus aperiam non minima. Fugiat, dolor illum?",
-    image:"https://i.ibb.co/kJ1yGbN/LIFE-CARE.png",
+    image:"https://i.ibb.co/g9r5y8J/Screenshot-13.png",
     skills:["React", "TailwindCss","React-hooks", "Node", "Mondodb", "Express", "Mongoose", "Firebase", "Github"]
   },
   {
@@ -27,7 +27,13 @@ const projectsData = [
   {
     title:"Kart bazar",
     desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam incidunt enim rerum aspernatur? Accusamus aperiam non minima. Fugiat, dolor illum?",
-    image:"https://i.ibb.co/kJ1yGbN/LIFE-CARE.png",
+    image:"https://i.ibb.co/ZzFtT5j/Screenshot-12.png",
+    skills:["React", "TailwindCss","React-hooks", "Node", "Mondodb", "Express", "Mongoose", "Firebase", "Github"]
+  },
+  {
+    title:"Programming Blogs",
+    desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam incidunt enim rerum aspernatur? Accusamus aperiam non minima. Fugiat, dolor illum?",
+    image:"https://i.ibb.co/MnR2nmB/Screenshot-14.png",
     skills:["React", "TailwindCss","React-hooks", "Node", "Mondodb", "Express", "Mongoose", "Firebase", "Github"]
   },
 ]
@@ -48,7 +54,7 @@ const Projects = () => {
               <p className="text-base text-gray-400">
                {project.desc}
               </p>
-              <h5 className="text-xl font-bold text-sky-400 my-4 opacity-80">Skills</h5>
+              <h5 className="text-xl font-bold text-sky-400 my-4 opacity-80">Technologies</h5>
               {project.skills.map(skill=>(<p className="text-white bg-gradient-to-r from-[#4239c2] to-[#100e29] inline-block px-4 py-1 rounded-full m-1">{skill} </p>))}
               <div className="flex gap-x-4 my-6">
                 <button className="flex items-center gap-x-2 border-2 border-[#4239c2] text-white px-4 py-1 rounded-md bg-gradient-to-r from-[#3629e9d0] to-[#25233c] " > <AiFillEye/> View Code</button>
