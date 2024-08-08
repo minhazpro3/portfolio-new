@@ -5,10 +5,12 @@ import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import { useForm } from "react-hook-form";
 import React from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Contact = () => {
-    const { register, handleSubmit } = useForm();
+    const { register, handleSubmit , reset} = useForm();
      
     const onSubmit = (data: any) => {
         console.log(data)
@@ -30,8 +32,12 @@ const Contact = () => {
         })
         .then(
           (response) => {
-            console.log('SUCCESS!');
-            alert("message sent")
+            if(response.status){
+                toast.success("Submit Successful",{
+                    position:'bottom-right'
+                });
+                reset()
+            }
           },
           (error) => {
             console.log('FAILED...', error.text);
@@ -47,6 +53,7 @@ const Contact = () => {
             <div className='container mx-auto px-0 md:px-0 my-4'>
                 <div>
                     <h2 className="text-3xl text-sky-400 font-bold text-center mb-12 ">Get into Touch <span className="text-[#8ff577]">__</span></h2>
+                    
                 </div>
                
 
@@ -72,11 +79,12 @@ const Contact = () => {
                                 <textarea className='my-3 w-full h-10 px-3 focus:border-green-400 border-2 outline-none rounded-md focus:shadow-2xl shadow-indigo-900 ' required style={{ height: "160px" }}  {...register("message")} placeholder="What's you mind?" ></textarea>
                             </div>
 
-                            <button className='border-2 text-xl border-white hover:border-green-700 px-3 py-2 bg-transparent rounded-lg flex items-center gap-2 hover:text-red-700 hover:bg-white bg-green-400 text-black transition-all duration-200 active:bg-zinc-500    ' type='submit'>Get into Touch <RiSendPlaneFill className="text-xl" /></button>
+                            <button className='border-2 text-xl border-white hover:border-green-700 px-3 py-2 bg-transparent rounded-lg flex items-center gap-2 hover:text-red-700 hover:bg-white bg-green-400 text-green-400 transition-all duration-200 active:bg-zinc-500    ' type='submit'>Get into Touch <RiSendPlaneFill className="text-xl" /></button>
                         </form>
                     </div>
                 </div>
             </div>
+         <ToastContainer/>
         </div>
     )
 }
