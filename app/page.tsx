@@ -4,6 +4,8 @@ import Banner from "./components/Banner";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Blogs from "./components/Blogs";
+import Contact from "./components/Contact";
 
 export default function Home() {
   // bg-[#100e29]
@@ -24,6 +26,12 @@ export default function Home() {
       <div>
         <Projects/>
       </div>
+      <div>
+        <Contact/>
+      </div>
+      {/* <div>
+        <Blogs/>
+      </div> */}
     </main>
   );
 }

@@ -79,7 +79,7 @@ const Projects = () => {
 
         </div>
         <div className="flex justify-center">
-           <button onClick={() => setShowAllProjects(!showAllProjects)} className="text-sm  mx-auto px-5 py-3 rounded-lg text-white underline">{!showAllProjects?"All Project": "View Less"} </button>
+           <button onClick={() => setShowAllProjects(!showAllProjects)} className="text-sm  mx-auto px-5 py-3 rounded-lg text-white underline">{!showAllProjects?"All Projects": "View Less"} </button>
         </div>
       </div>
     </div>
