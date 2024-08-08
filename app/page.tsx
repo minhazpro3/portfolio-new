@@ -14,20 +14,20 @@ export default function Home() {
       <div className="">
         <Navbar />
       </div>
-      <div className="">
+      <div  >
         <Banner />
       </div>
       <div className="">
-        <About/>
+        <About />
       </div>
       <div>
-        <Skills/>
+        <Skills />
       </div>
       <div>
-        <Projects/>
+        <Projects />
       </div>
       <div>
-        <Contact/>
+        <Contact />
       </div>
       {/* <div>
         <Blogs/>

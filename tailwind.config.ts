@@ -1,5 +1,5 @@
 import type { Config } from 'tailwindcss'
-
+const rippleEffectPlugin = require("tailwind-plugin-ripple-effect");
 const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -18,6 +18,6 @@ const config: Config = {
       }
     },
   },
-  plugins: [],
+  plugins: [rippleEffectPlugin],
 }
 export default config
