@@ -44,7 +44,7 @@ const Skills = () => {
           </div>
           <div className="flex flex-wrap gap-x-4 gap-y-2 md:gap-y-4 ">
             {languages.map((language,index) => (
-              <div key={index} className="flex ">
+              <div key={language.length} className="flex ">
                 <h2 className="bg-[#8ef577bd] px-3 py-1 rounded-2xl font-bold text-[#0F172A]">
                   {language}
                 </h2>{" "}

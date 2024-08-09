@@ -4,7 +4,7 @@ import minhaz from "../../public/images/minhaz.jpg";
 const About = () => {
   const im = "I'm"
   return (
-    <div>
+    <div >
       <div className="container mx-auto px-8 md:px-0 mb-8">
         <div className="">
           <h2 className="text-3xl text-sky-400 font-bold text-center mb-12 ">About me <span className="text-[#8ff577]">__</span></h2>
@@ -25,7 +25,7 @@ const About = () => {
             <div className="z-10  bg-gradient-to-tr from-[#100e29] via-[#152b44] to-[#0F172A] relative md:absolute lg:pl-14 md:pl-8 md:pr-16 lg:pr-20 lg:py-12 py-6 px-4 sm:px-0 sm:pl-5 sm:pr-12 my-10 md:my-0 md:top-6 lg:top-28 md:left-[40%] sm:rounded-tr-full rounded-tr-[6rem] sm:rounded-none">
               <h2 className="xl:text-3xl lg:text-2xl md:text-[16px sm:text-2xl text-2xl text-[#8ff577] font-bold">Hi! {im} Md Minhaz</h2>
               <p className="xl:text-base lg:text-base md:text-[14px] sm:text-xl text-sm mb-2 text-[#8e8affc2]">
-                Front End Developer, Content Creator
+                Front End Developer 
               </p>
               <p className="xl:text-sm lg:text-[12px] md:text-[10px] sm:text-xs text-[10px] text-gray-400 xl:leading-7 ">
                 I am a Front-end Developer who specializes in Next.js, React.js,
