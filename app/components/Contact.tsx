@@ -13,7 +13,7 @@ const Contact = () => {
     const { register, handleSubmit , reset} = useForm();
      
     const onSubmit = (data: any) => {
-        console.log(data)
+         
         // service id , template id, public key
         const service_id = "service_1ielev7"
         const template_id = "template_ioia06t"
@@ -45,8 +45,6 @@ const Contact = () => {
         );
     };
     
-     
-
    
     return (
         <div >
@@ -57,22 +55,23 @@ const Contact = () => {
                 </div>
                
 
-                <div className='flex justify-around items-center z-20'>
+                <div className='md:flex justify-around items-center  z-20'>
 
                     <div className='flex justify-center '>
                         <Player
                             autoplay
                             loop
                             src="https://lottie.host/4a0352ce-5041-4b90-b63a-2f63cabd5023/r8OGTFKzvI.json"
-                            style={{ height: '500px', width: '500px' }}
+                             
+                            className="md:w-[500px] w-[300px] md:h-[500px] h-[300px]"
                         >
                             <Controls visible={false} buttons={['play', 'repeat', 'frame', 'debug']} />
                         </Player>
 
                     </div>
-                    <div>
+                    <div className='px-8 md:px-0'> 
                         <form className='' onSubmit={handleSubmit(onSubmit)}>
-                            <div className=''>
+                            <div >
 
                                 <input className='my-3 w-full h-10 px-3 focus:border-green-400 border-2 outline-none rounded-md focus:shadow-2xl shadow-indigo-900 ' type='text' required {...register("user_name")} placeholder='Full-Name' />
                                 <input className='my-3 w-full h-10 px-3 focus:border-green-400 border-2 outline-none rounded-md focus:shadow-2xl shadow-indigo-900 ' type='text' required {...register("user_email")} placeholder='E-mail' />

@@ -57,7 +57,7 @@ const Banner = () => {
              
           />
           {/* <h2 className={`${inter.className} first-letter:text-7xl first-letter:float-top text-5xl font-bold text-[#8ff577]`}>Junior Web Developer</h2> */}
-          <div className="flex gap-x-4 sm-gap-x-12 items-center">
+          <div className="md:flex gap-x-4 sm-gap-x-12 items-center">
             <div className="flex gap-x-3 my-4">
               <FaFacebook
                 className="text-sky-700 hover:scale-125 transition-all duration-150 hover:cursor-pointer shadow-md  shadow-[#8e8affc2] rounded-full"

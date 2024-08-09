@@ -58,10 +58,10 @@ const Projects = () => {
                     {project.desc}
                   </p>
                   <h5 className="text-xl font-bold text-sky-400 my-4 opacity-80">Technologies</h5>
-                  {project.skills.map(skill => (<p className="text-white bg-gradient-to-r from-[#4239c2] to-[#100e29] inline-block px-4 py-1 rounded-full m-1">{skill} </p>))}
-                  <div className="flex gap-x-4 my-6">
-                    <button className="flex items-center gap-x-2 border-2 border-[#4239c2] text-white px-4 py-1 rounded-md bg-gradient-to-r from-[#3629e9d0] to-[#25233c] " > <AiFillEye /> View Code</button>
-                    <button className="flex items-center gap-x-2 border-2 border-[#4239c2] text-white px-4 py-1 rounded-md bg-gradient-to-r from-[#3629e9d0] to-[#25233c]" > <BiCodeAlt /> Live Demo</button>
+                  {project.skills.map(skill => (<p className="text-white bg-gradient-to-r from-[#4239c2] to-[#100e29] inline-block px-4 py-1 rounded-full m-1" key={skill.length}>{skill} </p>))}
+                  <div className="flex gap-2 sm:gap-x-4 my-6">
+                    <button className="flex text-xs sm:text-base items-center gap-x-2 border-2 border-[#4239c2] text-white px-4 py-2 sm:py-1 rounded-md bg-gradient-to-r from-[#3629e9d0] to-[#25233c] " > <AiFillEye /> View Code</button>
+                    <button className="flex text-xs sm:text-base items-center gap-x-2 border-2 border-[#4239c2] text-white px-4 py-2 sm:py-1 rounded-md bg-gradient-to-r from-[#3629e9d0] to-[#25233c]" > <BiCodeAlt /> Live Demo</button>
                   </div>
                 </div>
                 <div className="relative w-full h-[300px] sm:h-[450px] md:h-[270px] lg:h-[300px] transition-all duration-500 group-hover:[transform:rotateY(12deg)]   ">
