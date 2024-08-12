@@ -50,6 +50,8 @@ const Banner = () => {
 
                 " Front End Developer",
                 1500,
+                " Mern Stack Developer",
+                1500,
                 " Web Developer",
                 1500,
               ]}
